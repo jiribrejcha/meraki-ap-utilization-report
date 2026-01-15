@@ -12,6 +12,4 @@ Execute the the script using
 ```python3 meraki-ap-util.py```
 
 ## The mandatory boring legal part
-This script is provided "AS IS" without warranty of any kind, express or implied.
-The author assumes no responsibility for errors, omissions, or damages resulting 
-from the use of this script. Use at your own risk.
+This script is provided "AS IS" without warranty of any kind. The author assumes no responsibility for errors, omissions, or damages resulting from the use of this script. Use at your own risk.
