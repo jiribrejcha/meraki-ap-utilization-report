@@ -2,6 +2,8 @@
 
 This project generates searchable HTML report including the most recent 5-minute snapshot of channel utilization and client count per band per access point in a selected Cisco Meraki Dashboard network.
 
+Automatic orange/red coloring of rows helps you spot APs with high client count or channel utilization.
+
 <img width="1512" height="910" alt="image" src="https://github.com/user-attachments/assets/8803c333-0463-483d-8134-5d0a9271fba3" />
 
 ## How to use
