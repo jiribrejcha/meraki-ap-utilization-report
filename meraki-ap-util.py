@@ -1,7 +1,7 @@
 """
 Cisco Meraki AP Utilization Monitor
 
-This script is provided "AS IS" without warranty of any kind, express or implied.
+This script is provided "AS IS" without warranty of any kind.
 The author assumes no responsibility for errors, omissions, or damages resulting 
 from the use of this script. Use at your own risk.
 
@@ -552,6 +552,14 @@ def generate_html_report(online_serials, offline_devices, device_names_map, devi
   .footer p {
     margin: 4px 0;
   }
+  .footer a {
+    color: #143052;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
 </style>
 </head>
 <body>
@@ -633,6 +641,7 @@ def generate_html_report(online_serials, offline_devices, device_names_map, devi
   <div class="footer">
     <p>This page automatically refreshes every 60 seconds. Client count and channel utilization shows data for the past 5 minutes.</p>
     <p>Vibe coded by Jiri Brejcha (jibrejch@cisco.com). Blame Jiri for bugs, not Cisco.</p>
+    <p><a href="https://github.com/jiribrejcha/meraki-ap-utilization-report" target="_blank">Latest version on GitHub</a></p>
   </div>
 </div>
 
